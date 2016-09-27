@@ -18,6 +18,10 @@ The sample demonstrates how to implement a simple C# barcode reader on Windows u
     ![copy WebCamLib.dll](http://www.codepool.biz/wp-content/uploads/2016/09/webcamlib.PNG)
 6. Build and run the project.
 
+## Blog
+[WinForm Barcode Reader with Webcam and C#][4]
+
 [1]:http://touchless.codeplex.com/
 [2]:http://www.dynamsoft.com/Products/Dynamic-Barcode-Reader.aspx
 [3]:http://touchless.codeplex.com/releases/view/17986
+[4]:http://www.codepool.biz/winform-barcode-reader-webcam-csharp.html
