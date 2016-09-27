@@ -1,6 +1,6 @@
-# Webcam Barcode Reader in C#
+# Webcam Barcode Reader
 
-The sample demonstrates how to implement a simple barcode reader on Windows using [Touchless SDK][1] and [Dynamsoft Barcode Reader SDK][2] (DBR).
+The sample demonstrates how to implement a simple C# barcode reader on Windows using [Touchless SDK][1] and [Dynamsoft Barcode Reader SDK][2] (DBR).
 * **Touchless** is a free and open-source dotnet library for webcam.
 * **Dynamsoft Barcode Reader** is a commercial dotnet library for reading barcode. 
 
