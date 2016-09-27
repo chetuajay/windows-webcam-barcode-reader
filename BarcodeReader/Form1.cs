@@ -13,7 +13,7 @@ namespace BarcodeReaderApp
         private BarcodeReader _barcodeReader;
         private TouchlessMgr _touch;
         private const int _previewWidth = 640;
-        private const int _previewHight = 480;
+        private const int _previewHeight = 480;
 
         public Form1()
         {
@@ -89,7 +89,7 @@ namespace BarcodeReaderApp
             // Start to acquire images
             _touch.CurrentCamera = _touch.Cameras[0];
             _touch.CurrentCamera.CaptureWidth = _previewWidth; // Set width
-            _touch.CurrentCamera.CaptureWidth = _previewHight; // Set height
+            _touch.CurrentCamera.CaptureWidth = _previewHeight; // Set height
             _touch.CurrentCamera.OnImageCaptured += new EventHandler<CameraEventArgs>(OnImageCaptured); // Set preview callback function
         }
 
